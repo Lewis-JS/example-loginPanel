@@ -4,8 +4,7 @@ body {
 
 
 .login-panel {
-    margin-top: 200px;
-    margin-left: 355px;
+    margin: auto;
     background-color: white;
     max-width: 400px;
     height: 300px;
