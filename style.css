@@ -1,0 +1,120 @@
+body {
+    background-color: bisque;
+}
+
+
+.login-panel {
+    margin-top: 200px;
+    margin-left: 355px;
+    background-color: white;
+    max-width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    border-bottom: black;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+}
+
+.kullanici-adi {
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+.kullanici-adi label {
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.name-input{
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    border-bottom-style: solid;
+    outline: none;
+    border-color:  rgb(67, 67, 67);
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+}
+
+.name-input:hover {
+    border-color: blue;
+    width: 210px;
+    transition: 2s ease-in-out;
+}
+
+.sifre {
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+
+
+.sifre label {
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sifre-input{
+    width: 200px;
+    outline: none;
+    height: 30px;
+    margin-top: 10px;
+    border-bottom-style: solid;
+    border-color: rgb(67, 67, 67);
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+}
+
+.sifre-input:hover {
+    border-color: blue;
+    width: 210px;
+    transition: 2s ease-in-out;
+}
+
+.gonder {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gonder-input {
+    cursor: pointer;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 200px;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+
+.gonder-input:hover {
+    color: black;
+    background-color: gray;
+    transition: 1s ease;
+}
+
+
+.not-registered {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.not-registered p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.not-registered p a {
+    text-decoration: none;
+    color:rgb(245, 27, 27);
+}
+
+.not-registered p a:hover {
+    color: rgb(5, 197, 255);
+    transition: 1s linear;
+
+}
